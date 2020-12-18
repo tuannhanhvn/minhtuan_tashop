@@ -1,0 +1,332 @@
+nav{
+    float: left;
+    width: 100%;
+}
+@media (max-width: 1150px) {
+    #total-wrapper {
+        min-width: 100%;
+    }
+    div.wrapper {
+        width: 100%;
+        padding: 0px 10px !important;
+        box-sizing: border-box;
+    }
+    .scale,
+    #box_slide{
+        width: 100%;
+    }
+}
+@media (max-width:1024px) {
+    .tray_top li{
+        margin-right: 0px;
+    }
+    .produc .detail-pro .title{
+        height: auto;
+    }
+    .produc .detail-pro .title a{
+        font-size: 100%;
+    }
+    #slider_cate{
+        height: auto;
+    }
+    #slider_cate .item{
+        padding: 0 15px;
+    }
+    #slider_cate .owl-item img{
+        -webkit-transform: scale(1) ;
+        -moz-transform: scale(1) ;
+        -ms-transform: scale(1) ;
+        -o-transform: scale(1) ;
+        transform: scale(1) ;
+        width: 100%;
+    }
+    #slider_cate .owl-item.active .caption{
+        margin: 0 0 0 0;
+        width: 100%;
+    }
+    #slider_cate .caption{
+        width: 100%;
+        float: left;
+        margin: 0 0 0 0;
+    }
+    #slider_cate .owl-controls {
+        width: 100%;
+        left: 0;
+    }
+    .wid560{
+        width: 50%;
+    }
+    .list-news{
+        width: 50%;
+    }
+    /* .des_1024{
+        width: 100%;
+    } */
+    .des_1024 .first{
+        width: 100%;
+        float: left;
+    }
+    .des_1024 .child{
+        width: 100%;
+        float: left;
+        /* padding-left: 15px; */
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .wid545{
+        width: 30%;
+    }
+    .wid600{
+        width: 70%;
+    }
+    .tophit{
+        padding-left: 0px;
+    }
+    .box-300 {
+        width: 25%;
+        float: left;
+    }
+    .box-300 .icon {
+        width: 15%;
+    }
+    img{
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+}
+@media (max-width: 980px) {
+    .navbar-brand{
+        display: none;
+    }
+    header .box_search{
+        float: left;
+    }
+    /* header .logo{
+        
+    } */
+    header .right{
+        float: left;
+    }
+
+    .wid560 .des,
+    .wid560 .title-fea{
+        display: block;
+    }
+    .des_1024 .first{
+        width: 50%;
+        float: left;
+    }
+    .des_1024 .child{
+        width: 50%;
+        float: left;
+        height: auto;
+        overflow: hidden;
+         padding-left: 15px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .des_1024 .list-news ul{
+        border-left: 0px;
+        margin-top:10px;
+        margin-bottom: 10px;
+        padding:0;
+    }
+    .list-news ul li a{
+        padding: 5px 0;
+    }
+    .list-news ul li.last{
+        padding: 0;
+    }
+    .list-child{
+        margin-top: 0px;
+    }
+    .list-child li{
+        list-style: none;
+        border-bottom: 1px dashed #e2e2e3;
+    }
+    .box-300 .title{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .m-search{
+        position: relative;
+    }
+    .but_search{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .but_search span{
+        display: none;
+    }
+    .wide,
+    .wid197{
+        width: 100%;
+    }
+
+    .box-300 {
+        width: 33.3%;
+        margin: 0;
+    }
+    .box-300 .icon {
+        width: 15%;
+    }
+    .my_title .right_t,
+    .my_title .left_t{
+        display: none;
+    }
+    .produc .detail-pro .price .price-un,
+    .produc .detail-pro .price .price-main ,
+    .produc .detail-pro .price .price-main-1 {
+        width: 100%;
+    }
+    .produc .detail-pro .price{
+        height: 40px;
+        float: left;
+        width: 100%;
+    }
+    footer .receive .input input{
+        width: 95%;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-nav .open .dropdown-menu{
+        position: static;
+        float: left;
+        width: 100%;
+    }
+    .navbar-default .navbar-nav > li.active > a{
+        color: #ffffff !important;
+    }
+    .wid560,
+    .list-news,
+    .list-news ul{
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
+    .des_1024 .first,
+    .des_1024 .child,
+    .des_1024 .child .list-child{
+        width: 100%;
+        padding: 0;
+    }
+    .des_1024 .child .list-child li{
+        border-bottom: 1px dashed #e2e2e3;
+    }
+    .list-child li a{
+        background: none;
+    }
+    footer .receive .input input{
+        width: 85%;
+    }
+}
+@media (max-width: 640px) {
+    .navbar-default .navbar-brand{
+        display: none;
+    }
+    .navbar.navbar-default{
+        padding: 0 !important;
+    }
+    .navbar-default .navbar-brand img{
+        width: 100% !important;
+        height: auto !important;
+    }
+    .box-300 .title{
+        margin-left: 0;
+    }
+    .line_header{
+        display: none;
+    }
+    #keyword{
+        margin: 10px 0;
+    }
+    .top_product .list_title li.first{
+        background: url("../images/x.png") left center no-repeat;
+    }
+    .my_title{
+        margin-top: 20px !important;
+    }
+    .top_product .list_title li {
+        padding: 0 10px;
+    }
+
+    .mobi_none{
+        display: none;
+    }
+    .box-300{
+        width: 100%;
+        margin: 0;
+    }
+
+    .slide-pro .col-sm-10{
+        padding: 0;
+    }
+    #owl-detail-slide-thumb.vertical .img,
+    #owl-detail-slide-thumb .img a{
+        height: auto !important; 
+    }
+    #owl-detail-slide-thumb.vertical .img{
+        width: 33.3%;
+        float: left;
+        margin: 5px 0;
+    }
+}
+@media (max-width: 500px) {
+
+    .logo_nav{
+        width: 50%;
+    }
+
+    .des_1024{
+        padding: 0px;
+    }
+    .des_1024 .first,
+    .des_1024 .child,
+    .list-news,
+    .wid560,
+    .box-300{
+        width: 100%;
+    }
+
+}
+@media (max-width: 360px) {
+    .header .navbar-toggle{
+        margin-top: 30px;
+        margin-right: 5px;
+    }
+    header .box_search{
+        padding: 10px 0;
+        float: left;
+        width: 100%;
+    }
+    header .right{
+        width: 100%;
+    }
+    header .shopping{
+        margin: 5px 0;
+        padding: 0;
+    }
+    .navbar.navbar-default{
+        padding: 0 0 10px 0;
+    }
+    .tray_top{
+        display: none;
+    }
+    #copyright{
+        height: auto;
+    }
+    #copyright .counter{
+        display: none;
+    }
+    .but_search {
+        top: 10px;
+    }
+
+
+}

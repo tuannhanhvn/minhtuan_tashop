@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+a {
+  cursor: pointer;
+}
+@font-face {
+  font-family: sourece_san;
+  src: url("../fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf");
+}
+@font-face {
+  font-family: OpenSansSemibold;
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: OpenSansRegular;
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url("../fonts/Lato/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: OpenSansLight;
+  src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+}
+body {
+  background: #f1f1f1;
+  width: 100%;
+  height: auto;
+}
+
+
+/* Định dạng nội dung Caption */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+}
+
+/* gio-hang */
+#include{
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+}
+#include .breadcrumb a{
+    text-transform: uppercase;
+    color: #777777;
+    font-size: 10.83px;
+}
+#include .breadcrumb li{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#include .breadcrumb a:hover{
+    text-decoration: none;
+}
+#include .top{
+    margin-top: 20px;
+}
+.giohang .btn_top a{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background: #0f8fd0;
+    padding: 5px 10px;
+    color: #FFF;
+    white-space: nowrap;
+    float: right;
+}
+.giohang .btn_chucnang a{
+    font-size: 12px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    background: #0f8fd0;
+    padding: 5px 10px;
+    color: #FFF;
+    white-space: nowrap;
+    float: right;
+    margin-bottom: 10px;
+}
+.giohang .btn_top h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.table{
+    margin-top: 20px;
+    border: solid 1px #ddd;
+}
+.load_cart .title_top{
+    background: #0f8fd0;
+    color: #FFF;
+}
+.load_cart .title_top td{
+    text-transform: uppercase;
+    font-family: OpenSansRegular;
+}
+.load_cart .name{
+    text-transform: uppercase;
+}
+.load_cart .table .color img{
+    width: 25px;
+    margin-left: 15px;
+}
+
+.tongtien{
+    text-align: right;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.tongtien span{
+    color: red;
+    margin-left: 20px;
+}
